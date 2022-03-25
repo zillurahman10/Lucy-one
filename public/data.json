@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-pro-16-inch/macbook-pro-16-inch-01-500x500.jpg",
+        "name": "Apple Macbook Pro 16 inch",
+        "price": 280000
+    },
+    {
+        "id": 2,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-pro-15/vivobook-pro-15-01-500x500.jpg",
+        "name": "Asus Vivobook Pro 15",
+        "price": 164000
+    },
+    {
+        "id": 3,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/spectre-x360-convertible-14-ea1590tu/spectre-x360-convertible-14-ea1590tu-01-500x500.jpg",
+        "name": "HP Spectre x360",
+        "price": 180000
+    },
+    {
+        "id": 4,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/xps-15-9510/xps-15-9510-01-500x500.jpg",
+        "name": "Dell XPS 15 9510",
+        "price": 275100
+    },
+    {
+        "id": 5,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/yoga-7-x360/yoga-7-x360-01-500x500.jpg",
+        "name": "Lenovo Yoga 7 X360",
+        "price": 105000
+    },
+    {
+        "id": 6,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/msi/modern-14-b10mw/modern-14-b10mw-500x500.jpg",
+        "name": "MSI Modern 14 B10MW",
+        "price": 46900
+    },
+    {
+        "id": 7,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/zenbook-14-flip-oled-up5401ea/zenbook-14-flip-oled-up5401ea-01-500x500.jpg",
+        "name": "Asus ZenBook 14 Flip",
+        "price": 143000
+    },
+    {
+        "id": 8,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/pavilion-15-eg1678tu/pavilion-15-eg1678tu-01-500x500.jpg",
+        "name": "HP Pavilion 15-eg1678TU",
+        "price": 72500
+    },
+    {
+        "id": 9,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-5510/inspiron-15-5510-003-500x500.jpg",
+        "name": "Dell Inspiron 15 5510",
+        "price": 83000
+    },
+    {
+        "id": 10,
+        "img": "https://www.startech.com.bd/image/cache/catalog/laptop/apple/macbook-air/space-gray/13-inch/macbook-air-01-500x500.jpg",
+        "name": "Apple MacBook Air 13.3-Inch",
+        "price": 118000
+    }
+]
