@@ -26,7 +26,7 @@ const Items = () => {
 
     const random = () => {
         let index = getRandomItem(0, selectedItem.length - 1)
-        alert('You can but this item : ' + selectedItem[index].name);
+        alert('You can but this laptop : ' + selectedItem[index].name);
     }
 
     const reset = () => {
@@ -43,7 +43,7 @@ const Items = () => {
     }, [])
     return (
         <div>
-            <h1 className='header-text'>Chose your Favaourite Item!!</h1>
+            <h1 className='header-text'>Choose your Favaourite Laptop!!</h1>
             <div className='item-container'>
                 <div className='items'>
                     {
@@ -55,7 +55,7 @@ const Items = () => {
                     {
                         selectedItem.map(item => <Cart item={item.name} key={item.id} img={item.img}></Cart>)
                     }
-                    <button onClick={random}>Chose 1</button>
+                    <button onClick={random}>Choose any 1</button>
                     <br />
                     <button onClick={reset}>Reset All</button>
                 </div>

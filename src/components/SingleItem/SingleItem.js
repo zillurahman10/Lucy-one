@@ -12,7 +12,7 @@ const SingleItem = (props) => {
                 </div>
                 <div className='text'>
                     <h2>{name}</h2>
-                    <h4>Price : ${price}</h4>
+                    <h4>Price : $ {price}</h4>
                 </div>
                 <div className='btn'>
                     <button onClick={() => addToCart(props.product)} className='btn'>Add to cart</button>
