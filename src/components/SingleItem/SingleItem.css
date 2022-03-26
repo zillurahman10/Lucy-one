@@ -1,7 +1,7 @@
 .single-item{
     box-shadow: 1px 1px 20px;
     width: 300px;
-    height: 480px;
+    height: 490px;
     margin: 20px;
     border-radius: 10px;
 }
@@ -14,4 +14,9 @@
 }
 .btn{
     margin-left: 5px;
+    border: none;
+    background-color: rgb(171, 204, 223);
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
 }

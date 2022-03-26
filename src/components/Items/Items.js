@@ -55,9 +55,9 @@ const Items = () => {
                     {
                         selectedItem.map(item => <Cart item={item.name} key={item.id} img={item.img}></Cart>)
                     }
-                    <button onClick={random}>Choose any 1</button>
+                    <button className='random' onClick={random}>Choose any 1</button>
                     <br />
-                    <button onClick={reset}>Reset All</button>
+                    <button className='reset' onClick={reset}>Reset All</button>
                 </div>
             </div>
         </div>
