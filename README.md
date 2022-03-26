@@ -1,2 +1,2 @@
 # Laptop Dokan
-My Project Live site link https://assignment-8-zr.netlify.app/
+My Project Live site link https://laptop-dokan.netlify.app/
