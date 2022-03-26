@@ -17,7 +17,7 @@ const Items = () => {
     }
 
 
-    const getRandomName = (min, max) => {
+    const getRandomItem = (min, max) => {
         let step1 = max - min + 1;
         let step2 = Math.random() * step1
         let result = Math.floor(step2) + min
@@ -25,11 +25,12 @@ const Items = () => {
     }
 
     const random = () => {
-        let index = getRandomName(0, selectedItem.length - 1)
+        let index = getRandomItem(0, selectedItem.length - 1)
         alert('You can but this item : ' + selectedItem[index].name);
     }
 
     const reset = () => {
+        setCart([])
         setSelectedItem([])
     }
 
@@ -40,33 +41,27 @@ const Items = () => {
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])
-
-    if (selectedItem.length > 8) {
-
-    }
-    else {
-        return (
-            <div>
-                <h1 className='header-text'>Chose your Favaourite Item!!</h1>
-                <div className='item-container'>
-                    <div className='items'>
-                        {
-                            items.map(item => <SingleItem product={item} key={item.id} addToCart={addToCart}></SingleItem>)
-                        }
-                    </div>
-                    <div className='selected-items'>
-                        <h1>Selected Laptops</h1>
-                        {
-                            selectedItem.map(item => <Cart item={item.name} key={item.id}></Cart>)
-                        }
-                        <button onClick={random}>Chose 1</button>
-                        <br />
-                        <button onClick={reset}>Reset All</button>
-                    </div>
+    return (
+        <div>
+            <h1 className='header-text'>Chose your Favaourite Item!!</h1>
+            <div className='item-container'>
+                <div className='items'>
+                    {
+                        items.map(item => <SingleItem product={item} key={item.id} addToCart={addToCart}></SingleItem>)
+                    }
+                </div>
+                <div className='selected-items'>
+                    <h1>Selected Laptops</h1>
+                    {
+                        selectedItem.map(item => <Cart item={item.name} key={item.id} img={item.img}></Cart>)
+                    }
+                    <button onClick={random}>Chose 1</button>
+                    <br />
+                    <button onClick={reset}>Reset All</button>
                 </div>
             </div>
-        );
-    }
+        </div>
+    );
 
 
 };
