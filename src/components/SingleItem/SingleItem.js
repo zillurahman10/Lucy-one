@@ -10,11 +10,11 @@ const SingleItem = (props) => {
                 <div className='image'>
                     <img src={img} alt="" />
                 </div>
-                <div>
+                <div className='text'>
                     <h2>{name}</h2>
                     <h4>Price : ${price}</h4>
                 </div>
-                <div>
+                <div className='btn'>
                     <button onClick={() => addToCart(props.product)} className='btn'>Add to cart</button>
                 </div>
             </div>

@@ -5,3 +5,17 @@
 .item-container{
     display: flex;
 }
+.selected-items{
+    background-color: blanchedalmond;
+    margin-left: 20px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    color: purple;
+}

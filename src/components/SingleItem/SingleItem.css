@@ -1,9 +1,17 @@
 .single-item{
-    border: 1px solid gray;
+    box-shadow: 5px 5px 30px;
     width: 300px;
     height: 480px;
     margin: 20px;
+    border-radius: 10px;
 }
 .image img{
     width: 300px;
+    border-radius: 10px;
+}
+.text{
+    margin-left: 5px;
+}
+.btn{
+    margin-left: 5px;
 }

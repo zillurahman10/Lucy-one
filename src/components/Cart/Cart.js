@@ -1,18 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './Cart.css'
 
 const Cart = (props) => {
-    const { cart } = props
-    const [name, setName] = useState('')
-
-    for (const pd of name) {
-        const name = [...cart, pd.name]
-        setName(name)
-    }
-
+    const { item } = props
     return (
         <div>
-            <p>length : {props.cart.length}</p>
-            <h4>Name : {name}</h4>
+            <h4>{item}</h4>
         </div>
     );
 };
