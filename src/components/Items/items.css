@@ -5,12 +5,7 @@
 @media screen and (max-width : 576px) {
     .items{
         grid-template-columns: repeat(1, 1fr);
-        /* overflow-x: hidden; */
     }
-    /* .selected-items{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    } */
 }
 
 .item-container{
