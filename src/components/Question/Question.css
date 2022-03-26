@@ -1,0 +1,24 @@
+.questions{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ans{
+    margin: 30px 30px;
+}
+.react-question{
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.props-and-state-question{
+    background-color: lightcyan;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.props-and-state-question:hover{
+    background-color: black;
+    color: white;
+}
